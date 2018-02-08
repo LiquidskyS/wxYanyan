@@ -1,0 +1,2231 @@
+[ 2018-01-31T10:14:40+08:00 ] 101.87.254.112 /index.php/Admin/Adminuser/adminuser.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: id D:\Home\App\Admin\Controller\AdminuserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Admin\Controller\AdminuserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Admin\Controller\AdminuserController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_adminuser` WHERE ( 1=1 AND del<1 ) LIMIT 1   [ RunTime:0.0193s ]
+NOTIC: [8] Undefined index: page D:\Home\App\Admin\Controller\AdminuserController.class.php 第 23 行.
+SQL: SELECT * FROM `lr_adminuser` WHERE ( 1=1 AND del<1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008227s ]
+NOTIC: [8] Undefined variable: tel D:\Home\App\Runtime\Cache\Admin\c6ec897bf2d6cf4dffb88881d4f29975.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-01-31T10:14:43+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.0047s ]
+ERR: 1054:Unknown column 'shop_id' in 'field list'
+ [ SQL语句 ] : SELECT `shop_id` FROM `lr_adminuser` WHERE ( id=1 ) LIMIT 1  
+ERR: 1054:Unknown column 'shop_id' in 'field list'
+ [ SQL语句 ] : SELECT `shop_id` FROM `lr_adminuser` WHERE ( id=1 ) LIMIT 1  
+
+[ 2018-01-31T10:14:48+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.0043s ]
+ERR: 1054:Unknown column 'shop_id' in 'field list'
+ [ SQL语句 ] : SELECT `shop_id` FROM `lr_adminuser` WHERE ( id=1 ) LIMIT 1  
+ERR: 1054:Unknown column 'shop_id' in 'field list'
+ [ SQL语句 ] : SELECT `shop_id` FROM `lr_adminuser` WHERE ( id=1 ) LIMIT 1  
+
+[ 2018-01-31T10:27:27+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [8] Undefined index: pay_type D:\Home\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_status D:\Home\App\Admin\Controller\OrderController.class.php 第 39 行.
+NOTIC: [8] Undefined index: start_time D:\Home\App\Admin\Controller\OrderController.class.php 第 40 行.
+NOTIC: [8] Undefined index: end_time D:\Home\App\Admin\Controller\OrderController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0062s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0064s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-01-31T10:27:35+08:00 ] 101.87.254.112 /index.php/Admin/Category/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `lr_category` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`tid`,`name`,`bz_2`,`bz_4` FROM `lr_category` WHERE ( tid=0 AND bz_4<2 ) ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`tid`,`name`,`bz_2` FROM `lr_category` WHERE ( tid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`tid`,`name`,`bz_2` FROM `lr_category` WHERE ( tid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`tid`,`name`,`bz_2` FROM `lr_category` WHERE ( tid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`tid`,`name`,`bz_2` FROM `lr_category` WHERE ( tid=4 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`tid`,`name`,`bz_2` FROM `lr_category` WHERE ( tid=12 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: name D:\Home\App\Runtime\Cache\Admin\fd4baca4519ae09b87f761f8e37c27b2.php 第 28 行.
+NOTIC: [8] Undefined variable: tel D:\Home\App\Runtime\Cache\Admin\fd4baca4519ae09b87f761f8e37c27b2.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2018-01-31T10:27:39+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [8] Undefined index: pay_type D:\Home\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_status D:\Home\App\Admin\Controller\OrderController.class.php 第 39 行.
+NOTIC: [8] Undefined index: start_time D:\Home\App\Admin\Controller\OrderController.class.php 第 40 行.
+NOTIC: [8] Undefined index: end_time D:\Home\App\Admin\Controller\OrderController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2018-01-31T10:27:45+08:00 ] 101.87.254.112 /index.php/Admin/User/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: type D:\Home\App\Admin\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: id D:\Home\App\Admin\Controller\UserController.class.php 第 12 行.
+NOTIC: [8] Undefined index: tel D:\Home\App\Admin\Controller\UserController.class.php 第 13 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Admin\Controller\UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_user` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\Home\App\Admin\Controller\UserController.class.php 第 26 行.
+SQL: SELECT * FROM `lr_user` WHERE ( 1=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-01-31T10:28:38+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [8] Undefined index: pay_type D:\Home\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_status D:\Home\App\Admin\Controller\OrderController.class.php 第 39 行.
+NOTIC: [8] Undefined index: start_time D:\Home\App\Admin\Controller\OrderController.class.php 第 40 行.
+NOTIC: [8] Undefined index: end_time D:\Home\App\Admin\Controller\OrderController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-01-31T10:28:42+08:00 ] 101.87.254.112 /index.php/Admin/Guanggao/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined index: adv_name D:\Home\App\Admin\Controller\GuanggaoController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_guanggao` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lr_guanggao` ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: name D:\Home\App\Runtime\Cache\Admin\0b23887357856c285c911cbd887113be.php 第 33 行.
+NOTIC: [8] Undefined variable: type D:\Home\App\Runtime\Cache\Admin\0b23887357856c285c911cbd887113be.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-01-31T10:28:45+08:00 ] 101.87.254.112 /index.php/Admin/Voucher/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: keyword D:\Home\App\Admin\Controller\VoucherController.class.php 第 10 行.
+
+[ 2018-01-31T10:28:50+08:00 ] 101.87.254.112 /index.php/Admin/Voucher/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: keyword D:\Home\App\Admin\Controller\VoucherController.class.php 第 10 行.
+
+[ 2018-01-31T10:28:53+08:00 ] 101.87.254.112 /index.php/Admin/Voucher/add.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: id D:\Home\App\Admin\Controller\VoucherController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 40 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 47 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 55 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 63 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 71 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 79 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 87 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 95 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 102 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 102 行.
+NOTIC: [8] Undefined variable: voucher D:\Home\App\Runtime\Cache\Admin\13612774336989bf3190fbf810b8832f.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-01-31T10:28:57+08:00 ] 101.87.254.112 /index.php/Admin/Voucher/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined index: keyword D:\Home\App\Admin\Controller\VoucherController.class.php 第 10 行.
+
+[ 2018-01-31T10:32:17+08:00 ] 101.87.254.112 /index.php/Admin/Voucher/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: keyword D:\Home\App\Admin\Controller\VoucherController.class.php 第 10 行.
+
+[ 2018-01-31T10:32:53+08:00 ] 101.87.254.112 /index.php/Admin/Voucher/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: keyword D:\Home\App\Admin\Controller\VoucherController.class.php 第 10 行.
+
+[ 2018-01-31T10:40:35+08:00 ] 101.87.254.112 /index.php/Admin/Product/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined index: id D:\Home\App\Admin\Controller\ProductController.class.php 第 14 行.
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: type D:\Home\App\Admin\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: tuijian D:\Home\App\Admin\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Admin\Controller\ProductController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( 1=1 AND pro_type=1 AND del<1 ) LIMIT 1   [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: page D:\Home\App\Admin\Controller\ProductController.class.php 第 32 行.
+SQL: SELECT * FROM `lr_product` WHERE ( 1=1 AND pro_type=1 AND del<1 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_category` [ RunTime:0.0079s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0060s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-01-31T10:40:42+08:00 ] 101.87.254.112 /index.php/Admin/Brand/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: brand_name D:\Home\App\Admin\Controller\BrandController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lr_brand` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: name D:\Home\App\Runtime\Cache\Admin\ab4b9af6790308501cce30a58d6505ed.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2018-01-31T10:41:03+08:00 ] 101.87.254.112 /index.php/Admin/Brand/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: brand_name D:\Home\App\Admin\Controller\BrandController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lr_brand` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: name D:\Home\App\Runtime\Cache\Admin\ab4b9af6790308501cce30a58d6505ed.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-01-31T10:41:04+08:00 ] 101.87.254.112 /index.php/Admin/Brand/add.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: id D:\Home\App\Admin\Controller\BrandController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: brand_info D:\Home\App\Runtime\Cache\Admin\0339691b9862dce0987849959f1f76a1.php 第 36 行.
+NOTIC: [8] Undefined variable: brand_info D:\Home\App\Runtime\Cache\Admin\0339691b9862dce0987849959f1f76a1.php 第 42 行.
+NOTIC: [8] Undefined variable: brand_info D:\Home\App\Runtime\Cache\Admin\0339691b9862dce0987849959f1f76a1.php 第 57 行.
+NOTIC: [8] Undefined variable: id D:\Home\App\Runtime\Cache\Admin\0339691b9862dce0987849959f1f76a1.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-01-31T10:41:07+08:00 ] 101.87.254.112 /index.php/Admin/Brand/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: brand_name D:\Home\App\Admin\Controller\BrandController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lr_brand` LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: name D:\Home\App\Runtime\Cache\Admin\ab4b9af6790308501cce30a58d6505ed.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-01-31T10:49:12+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [8] Undefined index: pay_type D:\Home\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_status D:\Home\App\Admin\Controller\OrderController.class.php 第 39 行.
+NOTIC: [8] Undefined index: start_time D:\Home\App\Admin\Controller\OrderController.class.php 第 40 行.
+NOTIC: [8] Undefined index: end_time D:\Home\App\Admin\Controller\OrderController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2018-01-31T10:49:19+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=weixin&pay_status=&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+ERR: 1054:Unknown column 'weixin' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND type=weixin ) LIMIT 1  
+ERR: 1054:Unknown column 'weixin' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND type=weixin ) LIMIT 1  
+
+[ 2018-01-31T10:51:52+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [8] Undefined index: pay_type D:\Home\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_status D:\Home\App\Admin\Controller\OrderController.class.php 第 39 行.
+NOTIC: [8] Undefined index: start_time D:\Home\App\Admin\Controller\OrderController.class.php 第 40 行.
+NOTIC: [8] Undefined index: end_time D:\Home\App\Admin\Controller\OrderController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0095s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0038s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-01-31T10:51:57+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=cash&pay_status=&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+ERR: 1054:Unknown column 'cash' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND type=cash ) LIMIT 1  
+ERR: 1054:Unknown column 'cash' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND type=cash ) LIMIT 1  
+
+[ 2018-01-31T10:52:35+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [8] Undefined index: pay_type D:\Home\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_status D:\Home\App\Admin\Controller\OrderController.class.php 第 39 行.
+NOTIC: [8] Undefined index: start_time D:\Home\App\Admin\Controller\OrderController.class.php 第 40 行.
+NOTIC: [8] Undefined index: end_time D:\Home\App\Admin\Controller\OrderController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0081s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-01-31T10:52:40+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=20&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=20 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=20 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002177s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2018-01-31T10:52:45+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=30&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=30 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2018-01-31T10:52:48+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=40&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=40 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2018-01-31T10:52:52+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=50&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=50 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=50 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-01-31T10:52:57+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=2&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND back=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND back=2 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-01-31T10:53:02+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0051s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-01-31T10:53:11+08:00 ] 101.87.254.112 /index.php/Admin/Order/index/del/0/p/2.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [8] Undefined index: pay_type D:\Home\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_status D:\Home\App\Admin\Controller\OrderController.class.php 第 39 行.
+NOTIC: [8] Undefined index: start_time D:\Home\App\Admin\Controller\OrderController.class.php 第 40 行.
+NOTIC: [8] Undefined index: end_time D:\Home\App\Admin\Controller\OrderController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 25,25   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0095s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2018-01-31T10:53:16+08:00 ] 101.87.254.112 /index.php/Admin/Order/index/del/0/p/1.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [8] Undefined index: pay_type D:\Home\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_status D:\Home\App\Admin\Controller\OrderController.class.php 第 39 行.
+NOTIC: [8] Undefined index: start_time D:\Home\App\Admin\Controller\OrderController.class.php 第 40 行.
+NOTIC: [8] Undefined index: end_time D:\Home\App\Admin\Controller\OrderController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2018-01-31T10:53:24+08:00 ] 101.87.254.112 /index.php/Admin/Order/show.html?oid=28
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lr_order` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `lr_order_product` WHERE ( order_id=28 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pro_guide D:\Home\App\Admin\Controller\OrderController.class.php 第 171 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: name D:\Home\App\Runtime\Cache\Admin\a42ffec115e06477249ec78d2d3f6ffa.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2018-01-31T10:53:48+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=30&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND status=30 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-01-31T10:53:53+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=&start_time=&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-01-31T10:54:17+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=&start_time=2017-12-14&end_time=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND addtime>1513180800 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\Home\App\Admin\Controller\OrderController.class.php 第 92 行.
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND addtime>1513180800 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: end_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 69 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-01-31T10:54:28+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=&start_time=2017-12-01&end_time=2018-01-01
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND addtime>1512057600 AND addtime<1514736000 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\Home\App\Admin\Controller\OrderController.class.php 第 92 行.
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND addtime>1512057600 AND addtime<1514736000 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2018-01-31T10:54:44+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=&start_time=&end_time=2017-12-15
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND addtime<1513267200 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\Home\App\Admin\Controller\OrderController.class.php 第 92 行.
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND addtime<1513267200 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-01-31T10:55:03+08:00 ] 101.87.254.112 /index.php/Admin/Order/index.html?pay_type=&pay_status=&start_time=&end_time=2017-12-15
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Home\App\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 AND addtime<1513267200 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\Home\App\Admin\Controller\OrderController.class.php 第 92 行.
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 AND addtime<1513267200 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0168s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: shop_id D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 37 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_type D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 50 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 59 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 61 行.
+NOTIC: [8] Undefined variable: pay_status D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 62 行.
+NOTIC: [8] Undefined variable: start_time D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 68 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined offset: 0 D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-01-31T10:55:06+08:00 ] 101.87.254.112 /index.php/Admin/More/setup.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `lr_program` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-01-31T11:39:42+08:00 ] 101.87.254.112 /index.php/Admin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.2258s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008990s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2018-01-31T11:39:42+08:00 ] 101.87.254.112 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-01-31T11:39:47+08:00 ] 101.87.254.112 /index.php/Admin/More/setup.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `lr_program` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-01-31T11:39:50+08:00 ] 101.87.254.112 /index.php/Admin/Brand/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: brand_name D:\Home\App\Admin\Controller\BrandController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_brand` LIMIT 1   [ RunTime:0.0084s ]
+SQL: SELECT * FROM `lr_brand` LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: name D:\Home\App\Runtime\Cache\Admin\ab4b9af6790308501cce30a58d6505ed.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2018-01-31T11:56:36+08:00 ] 101.87.254.112 /index.php/Admin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0315s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-01-31T11:56:36+08:00 ] 101.87.254.112 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-31T11:56:41+08:00 ] 101.87.254.112 /index.php/Admin/User/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: type D:\Home\App\Admin\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: id D:\Home\App\Admin\Controller\UserController.class.php 第 12 行.
+NOTIC: [8] Undefined index: tel D:\Home\App\Admin\Controller\UserController.class.php 第 13 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Admin\Controller\UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_user` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0094s ]
+NOTIC: [8] Undefined index: page D:\Home\App\Admin\Controller\UserController.class.php 第 26 行.
+SQL: SELECT * FROM `lr_user` WHERE ( 1=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-01-31T11:57:22+08:00 ] 101.87.254.112 /index.php/Admin/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+
+[ 2018-01-31T11:59:33+08:00 ] 101.87.254.112 /index.php/Admin/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+
+[ 2018-01-31T11:59:33+08:00 ] 101.87.254.112 /index.php/Admin/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-01-31T12:01:41+08:00 ] 101.87.254.112 /index.php/Admin/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-01-31T12:01:41+08:00 ] 101.87.254.112 /index.php/Admin/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-01-31T12:01:54+08:00 ] 101.87.254.112 /index.php/Admin/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-01-31T12:01:54+08:00 ] 101.87.254.112 /index.php/Admin/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-01-31T12:02:02+08:00 ] 101.87.254.112 /index.php/Admin/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-01-31T12:02:02+08:00 ] 101.87.254.112 /index.php/Admin/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-01-31T12:03:10+08:00 ] 101.87.254.112 /index.php/Admin/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-31T12:03:10+08:00 ] 101.87.254.112 /index.php/Admin/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-01-31T12:03:48+08:00 ] 101.87.254.112 /index.php/Admin/Product/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined index: id D:\Home\App\Admin\Controller\ProductController.class.php 第 14 行.
+NOTIC: [8] Undefined index: shop_id D:\Home\App\Admin\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: type D:\Home\App\Admin\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: tuijian D:\Home\App\Admin\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: name D:\Home\App\Admin\Controller\ProductController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0579s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( 1=1 AND pro_type=1 AND del<1 ) LIMIT 1   [ RunTime:0.0246s ]
+NOTIC: [8] Undefined index: page D:\Home\App\Admin\Controller\ProductController.class.php 第 32 行.
+SQL: SELECT * FROM `lr_product` WHERE ( 1=1 AND pro_type=1 AND del<1 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `lr_category` [ RunTime:0.0272s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0124s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-01-31T14:06:31+08:00 ] 112.90.82.236 /index.php/Admin/Brand/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0538s ]
+
+[ 2018-01-31T14:32:10+08:00 ] 163.177.90.152 /index.php/Admin/Product/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+
+[ 2018-01-31T14:32:10+08:00 ] 113.108.21.80 /index.php/Admin/User/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-01-31T15:00:28+08:00 ] 101.87.254.112 /index.php/Admin/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-01-31T15:00:28+08:00 ] 101.87.254.112 /index.php/Admin/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\Home\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+
